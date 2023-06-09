@@ -1,0 +1,74 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+figcaption {
+  color: #808080;
+  display: flex;
+  justify-content: center;
+}
+
+.logoDaKenzie {
+  width: 230px;
+  display: flex;
+}
+
+.img {
+  width: 10em;
+  height: 10em;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: #ffffff;
+  border-radius: 8px;
+  border-width: 1px;
+  margin-top: 20px;
+}
